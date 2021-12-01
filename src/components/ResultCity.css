@@ -1,0 +1,46 @@
+.result {
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+
+}
+
+.result p,
+.result h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.result h2 {
+  font-size: 100px;
+  top: 150px;
+
+}
+
+.result p.temp {
+  font-size: 80px;
+  top: 270px;
+}
+
+.result p.sunrise {
+  font-size: 25px;
+  top: 390px;
+}
+
+.result p.sunset {
+  font-size: 25px;
+  top: 450px;
+}
+
+.result p.pressure {
+  font-size: 25px;
+  top: 500px;
+}
+
+.result p.wind {
+  font-size: 25px;
+  top: 550px;
+}
