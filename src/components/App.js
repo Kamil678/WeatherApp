@@ -27,7 +27,7 @@ class App extends Component {
   handleSubmitForm = e => {
     e.preventDefault()
     console.log("Potwierdzony formularz")
-    const API = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=aa6dd97573b2006f7f7377c095f1392a&units=metric`;
+    const API = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=aa6dd97573b2006f7f7377c095f1392a&units=metric`;
 
     fetch(API)
     .then(response => {
